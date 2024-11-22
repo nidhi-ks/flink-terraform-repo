@@ -58,7 +58,7 @@ FROM orders_data;
 ```
 Inserts data into orders_topic table from orders_data table 
 
-## Filtering in Flink: Price and Quantity Greater Than 0
+## Filtering in Flink
 
 
 ### 3. Creating the `filtered_orders` Table
@@ -85,7 +85,7 @@ WHERE `orderunits`> 5.00
 Inserts data into filtered_orders after filtering data based on conditions from trades_orders 
 
 
-### 5. Running Aggregates and Window Functions
+##  Running Aggregates and Window Functions
 
 ```sql
 create table totalnumberoforders_per_address_10min (
