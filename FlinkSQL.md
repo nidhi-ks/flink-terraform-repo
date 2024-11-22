@@ -1,6 +1,6 @@
 # Workshop Instructions
 
-## . Creating Tables in Flink
+## Creating Tables in Flink
 
 ### 1. View the `orders_data` table:
 
