@@ -325,7 +325,7 @@ resource "confluent_connector" "datagen_customers" {
   config_sensitive = {}
   config_nonsensitive = {
     "connector.class"          = "DatagenSource"
-    "name"                     = "${var.use_prefix}-trades"
+    "name"                     = "${var.use_prefix}-orders"
     "kafka.auth.mode"          = "SERVICE_ACCOUNT"
     "kafka.service.account.id" = confluent_service_account.connectors.id
     "kafka.topic"              = "orders_data"
