@@ -45,6 +45,7 @@ After completing the tasks, please remove your environment to avoid costs. You c
 ```bash
 terraform destroy
 ```
+### For Running Flink SQL queries please jump to [Instructions to run Flink SQL here](https://github.com/nidhi-ks/flink-terraform-repo/blob/main/FlinkSQL.md)
 
 ##  Deploying a Flink statement in Terraform example
 
